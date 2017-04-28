@@ -1,0 +1,42 @@
+{
+    "dev": {
+        "master": {
+            "ip": "10.168.31.33",
+            "port": "6379",
+			"password":"123456",
+			"maxidle":10,
+			"idletimeout":10,
+			"maxactive":1024,
+			"db":5
+        },
+        "slave": {
+            "ip": "10.168.31.33",
+            "port": "6379",
+			"password":"",
+			"maxidle":10,
+            "idletimeout":10,
+			"maxactive":1024,
+			"db":5
+        }
+    },
+    "other": {
+        "master": {
+            "ip": "127.0.0.1",
+            "port": "6379",
+			"password":"",
+			"maxidle":10,
+            "idletimeout":180,
+			"maxactive":1024,
+			"db":5
+        },
+        "slave": {
+           "ip": "127.0.0.1",
+            "port": "6379",
+			"password":"",
+			"maxidle":10,
+            "idletimeout":180,
+			"maxactive":1024,
+			"db":5
+        }
+    }
+}

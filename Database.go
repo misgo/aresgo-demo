@@ -31,8 +31,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/aresgo"
-	"github.com/aresgo/text"
+	"github.com/misgo/aresgo"
+	"github.com/misgo/aresgo/text"
 )
 
 type (

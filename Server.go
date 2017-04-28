@@ -7,14 +7,14 @@
 package main
 
 import (
-	action "Demo/action"
+	action "github.com/misgo/aresgo-demo/action"
 
 	"fmt"
 	"strconv"
 	"strings"
 	"time"
 
-	"github.com/aresgo"
+	"github.com/misgo/aresgo"
 )
 
 func server(ip string) {

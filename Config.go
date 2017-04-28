@@ -11,8 +11,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/aresgo"
-	"github.com/aresgo/config"
+	"github.com/misgo/aresgo"
+	"github.com/misgo/aresgo/config"
 )
 
 var configer config.Configer = nil

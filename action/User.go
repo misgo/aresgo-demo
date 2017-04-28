@@ -6,10 +6,10 @@
 package Action
 
 import (
-	. "Demo/model"
 	"fmt"
 
-	"github.com/aresgo"
+	"github.com/misgo/aresgo"
+	. "github.com/misgo/aresgo-demo/model"
 )
 
 var (

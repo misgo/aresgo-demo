@@ -4,7 +4,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/aresgo"
+	"github.com/misgo/aresgo"
 )
 
 func redis(confPath string) {

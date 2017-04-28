@@ -2,8 +2,9 @@
 package Model
 
 import (
-	"aresgo/text"
 	"time"
+
+	"github.com/misgo/aresgo/text"
 )
 
 type (
